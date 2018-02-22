@@ -1,0 +1,11 @@
+﻿
+<h1>Please fill in the form.</h1>
+<form action="Register" method="post">
+    First Name<br />  <input type="text" name="FirstName" pattern="^[A-Za-z]{1,100}$" required /><br /><br />
+    Last Name<br />  <input type="text" name="LastName" pattern="^[A-Za-z]{1,100}$" required /><br /><br />
+    Email<br /> <input type="email" name="Email" /><br /><br />
+    Phone Number<br /> <input type="number" name="PhoneNumber" pattern="^[0-9]{10,11}$" required /><br /><br />
+    Password<br /> <input type="password" name="Password" pattern="^[a-z0-9_-]{8,30}$" required /><br /><br />
+    <input type="submit" value="Register" />
+
+</form>
