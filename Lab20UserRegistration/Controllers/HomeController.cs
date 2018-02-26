@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Lab20UserRegistration.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -32,9 +33,16 @@ namespace Lab20UserRegistration.Controllers
             return View();
         }
 
-        public ActionResult Register(string FirstName)
+        public ActionResult Register(CoffeeShopDBEntities NewCustomer)
         {
-            ViewBag.FirstName = FirstName;
+            CoffeeShopDBEntities MyORM = new CoffeeShopDBEntities();
+
+            MyORM.User.Add(NewCustomer);
+
+            MyORM.SaveChanges();
+
+            Viewbag.FirstName = CoffeeShopDBEntities.Users.[First Name];
+
             return View("Welcome");
         }
 

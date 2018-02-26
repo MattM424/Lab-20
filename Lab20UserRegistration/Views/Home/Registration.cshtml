@@ -1,6 +1,7 @@
 ﻿
 <h1>Please fill in the form.</h1>
-<form action="Register" method="post">
+@Lab20UserRegistration.Models.CoffeeShopDBEntities
+<form action="/home/Register" method="post">
     First Name<br />  <input type="text" name="FirstName" pattern="^[A-Za-z]{1,100}$" required /><br /><br />
     Last Name<br />  <input type="text" name="LastName" pattern="^[A-Za-z]{1,100}$" required /><br /><br />
     Email<br /> <input type="email" name="Email" /><br /><br />
@@ -9,3 +10,25 @@
     <input type="submit" value="Register" />
 
 </form>
+
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Price</th>
+    </tr>
+    @foreach (var Coffee in ViewBag.Item)
+    {
+        <tr>
+            <td>
+                @Coffee.Name
+            </td>
+            <td>
+                @Coffee.Description
+            </td>
+            <td>
+                @Coffee.Price
+            </td>
+        </tr>        
+     }
+</table>

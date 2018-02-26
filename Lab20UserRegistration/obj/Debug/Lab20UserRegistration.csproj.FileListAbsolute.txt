@@ -40,3 +40,7 @@ c:\users\ginge\source\repos\Lab20UserRegistration\Lab20UserRegistration\obj\Debu
 c:\users\ginge\source\repos\Lab20UserRegistration\Lab20UserRegistration\obj\Debug\Lab20UserRegistration.csproj.CoreCompileInputs.cache
 c:\users\ginge\source\repos\Lab20UserRegistration\Lab20UserRegistration\obj\Debug\Lab20UserRegistration.dll
 c:\users\ginge\source\repos\Lab20UserRegistration\Lab20UserRegistration\obj\Debug\Lab20UserRegistration.pdb
+C:\Users\ginge\source\repos\Lab20UserRegistration\Lab20UserRegistration\bin\EntityFramework.dll
+C:\Users\ginge\source\repos\Lab20UserRegistration\Lab20UserRegistration\bin\EntityFramework.SqlServer.dll
+C:\Users\ginge\source\repos\Lab20UserRegistration\Lab20UserRegistration\bin\EntityFramework.xml
+C:\Users\ginge\source\repos\Lab20UserRegistration\Lab20UserRegistration\bin\EntityFramework.SqlServer.xml
